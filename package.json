@@ -11,7 +11,8 @@
     "test": "mocha --compilers js:mocha-babel __tests__",
     "test:watch": "mocha --compilers js:mocha-babel --watch __tests__",
     "compile": "webpack",
-    "prepublish": "npm run compile"
+    "prepublish": "npm run compile",
+    "postinstall": "npm run compile"
   },
   "repository": {
     "type": "git",
